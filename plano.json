@@ -1,0 +1,29 @@
+{
+    "NombrePlano" : "Ayuntamiento",
+    "zonas" : [
+      {
+        "nombre" : "Garaje",
+        "observaciones" : "Amplio",
+        "x1": 107,
+        "x2": 281,
+        "y1": 35,
+        "y2": 221,
+        "wi": 174,
+        "he": -186,
+        "x3": 107,
+        "y3": 221
+      },
+      {
+        "nombre" : "Salon comedor",
+        "observaciones" : "Estancia mayor de la vivienda",
+        "x1": 522,
+        "x2": 649,
+        "y1": 32,
+        "y2": 312,
+        "wi": 127,
+        "he": -280,
+        "x3": 522,
+        "y3": 312
+      }
+    ]
+  }
