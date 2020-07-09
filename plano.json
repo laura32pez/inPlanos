@@ -1,29 +1,41 @@
 {
-    "NombrePlano" : "Ayuntamiento",
-    "zonas" : [
-      {
-        "nombre" : "Garaje",
-        "observaciones" : "Amplio",
-        "x1": 107,
-        "x2": 281,
-        "y1": 35,
-        "y2": 221,
-        "wi": 174,
-        "he": -186,
-        "x3": 107,
-        "y3": 221
-      },
-      {
-        "nombre" : "Salon comedor",
-        "observaciones" : "Estancia mayor de la vivienda",
-        "x1": 522,
-        "x2": 649,
-        "y1": 32,
-        "y2": 312,
-        "wi": 127,
-        "he": -280,
-        "x3": 522,
-        "y3": 312
-      }
+    "NombrePlano": "Casa2",
+    "Zonas": [
+        {
+            "he": "-188",
+            "nombre": "Garaje",
+            "observaciones": "Amplio",
+            "wi": "177",
+            "x1": "106",
+            "x2": "283",
+            "x3": "106",
+            "y1": "31",
+            "y2": "219",
+            "y3": "219"
+        },
+        {
+            "he": "-149",
+            "nombre": "Dormitorio 1",
+            "observaciones": "Habitación principal",
+            "wi": "160",
+            "x1": "307",
+            "x2": "467",
+            "x3": "307",
+            "y1": "333",
+            "y2": "482",
+            "y3": "482"
+        },
+        {
+            "he": "-59",
+            "nombre": "Lavadero",
+            "observaciones": "Zona de la lavadora",
+            "wi": "121",
+            "x1": "302",
+            "x2": "423",
+            "x3": "302",
+            "y1": "26",
+            "y2": "85",
+            "y3": "85"
+        }
     ]
-  }
+}
