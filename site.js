@@ -5,7 +5,8 @@ if (canvas && canvas.getContext) {
 
 	var ctx = canvas.getContext("2d");
 	var img = new Image();
-	img.src = "https://github.com/laura32pez/inPlanos/blob/master/plano.jpg?raw=true"
+	img.src = "https://raw.githubusercontent.com/laura32pez/inPlanos/master/Vivienda1.jpg"
+	
 
 	img.onload = function () {
 		ctx.drawImage(img, 0, 0, img.width, img.height);
@@ -16,7 +17,7 @@ if (canvas && canvas.getContext) {
 const header = document.querySelector('header');
 const section = document.querySelector('section');
 
-const requestURL = 'https://raw.githubusercontent.com/laura32pez/inPlanos/master/plano.json';
+const requestURL = 'https://raw.githubusercontent.com/laura32pez/inPlanos/master/Vivienda1.json';
 const request = new XMLHttpRequest();
 request.open('GET', requestURL);
 
@@ -33,7 +34,7 @@ request.onload = function() {
 		canvas.addEventListener("mousemove", function (evt) {
 			var mousePos = oMousePos(canvas, evt);
 			showZonas(plano,mousePos.x, mousePos.y);
-			marcarCoords(output, mousePos.x, mousePos.y);
+			//marcarCoords(output, mousePos.x, mousePos.y);
 		}, false);
 
 		canvas.addEventListener("mouseout", function(evt) {
